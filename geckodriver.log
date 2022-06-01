@@ -1,0 +1,28 @@
+1653985487670	geckodriver	INFO	Listening on 127.0.0.1:38159
+1653985487678	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41607" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLihy1M"
+1653985488130	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLihy1M/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41607/devtools/browser/e0a6b12b-2784-4135-89f5-9673f690bb20
+1653985488867	Marionette	INFO	Listening on port 38745
+Read port: 38745
+1653985488892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653985505960	Marionette	INFO	Stopped listening on port 38745
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1653985714257	geckodriver	INFO	Listening on 127.0.0.1:48099
+1653985714262	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39519" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileb6Jujf"
+1653985714687	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileb6Jujf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39519/devtools/browser/7936e7ca-1d18-49ea-87c2-f5dd091031ab
+1653985715422	Marionette	INFO	Listening on port 32891
+Read port: 32891
+1653985715500	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653986360525	Marionette	INFO	Stopped listening on port 32891
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
